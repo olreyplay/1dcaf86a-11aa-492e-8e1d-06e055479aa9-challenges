@@ -1,11 +1,20 @@
+// Change the code below this line.
+const UserCard = (props) => {
+  return (
+    <>
+      <h2>{___}</h2>
+      <p>{___}</p>
+    </>
+  );
+};
+// Change the code above this line.
+
 const App = () => {
   return (
     <>
-      <h1>Challenge 01</h1>
-      <p>
-        This is a challenge to create a simple web page with a header and a
-        paragraph.
-      </p>
+      <UserCard name="Emma Wilson" job="UI Designer" />
+      <UserCard name="Daniel Lee" job="Frontend Developer" />
+      <UserCard name="Sophia Turner" job="Product Manager" />
     </>
   );
 };
